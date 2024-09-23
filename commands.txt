@@ -14,3 +14,10 @@ cd /Users/oliviamoody/Documents/GitHub/qtm350/qtm350-quiz01
 mv data/raw-data.csv data/input-data.csv
 mkdir -p scripts/backup && p scripts/*.py /.backup
 rm docs/documentation.md
+git add /Users/oliviamoody/Documents/GitHub/qtm350/qtm350-quiz01
+git commit -m "Update project files"  
+touch .gitignore.txt
+echo "temp/" >> .gitignore.txt
+echo "dataset0?.csv" >> .gitignore.txt
+cat .gitignore.txt
+git add /Users/oliviamoody/Documents/GitHub/qtm350/qtm350-quiz01/.gitignore.txt && git commit -m "Add .gitignore file"
