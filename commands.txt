@@ -1,0 +1,16 @@
+git clone https://github.com/oliviamoody/qtm350-quiz01.git
+cd qtm350-quiz01
+touch commands.txt   
+git switch -c feature-update
+mkdir reports
+cd reports
+touch summary.md
+echo "This document provides a summary of the project updates." >> summary.md
+git add /Users/oliviamoody/Documents/GitHub/qtm350/qtm350-quiz01/reports
+#Use git stage to check it is staged
+git commit -m "Add reports directory"       
+touch file{1..3}.txt
+cd /Users/oliviamoody/Documents/GitHub/qtm350/qtm350-quiz01
+mv data/raw-data.csv data/input-data.csv
+mkdir -p scripts/backup && p scripts/*.py /.backup
+rm docs/documentation.md
